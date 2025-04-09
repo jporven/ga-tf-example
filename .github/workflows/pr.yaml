@@ -15,6 +15,7 @@ permissions:
 jobs:
   pr-infra-check:
     runs-on: ubuntu-latest
+    environment: TEST
     defaults:
         run:
           shell: bash
