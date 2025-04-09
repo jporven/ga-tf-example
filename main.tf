@@ -22,13 +22,13 @@ output "know_value" {
   value = local.know_value
 }
 
-#unknow value
+#unknown value
 
 resource "random_integer" "this" {
  max  =  100
  min = 0 
 }
 
-output "unknow_value" {
+output "unknown_value" {
   value = random_integer.this.id
 }
